@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify Finder",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "identity",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "oauth2": {
+    "client_id": "bca55857921347a5bd60a8bdffff55db",
+    "scopes": ["user-library-modify", "user-library-read"],
+    "redirect_uri": "https://gekjeajmkkkiiokdgcplmlhpphabepgd.chromiumapp.org/callback"
+  }
+}
