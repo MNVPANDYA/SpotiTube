@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Spotify Finder",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "activeTab",
     "scripting",
@@ -29,6 +29,6 @@
   "oauth2": {
     "client_id": "bca55857921347a5bd60a8bdffff55db",
     "scopes": ["user-library-modify", "user-library-read"],
-    "redirect_uri": "https://gekjeajmkkkiiokdgcplmlhpphabepgd.chromiumapp.org/callback"
+    "redirect_uri": "https://hlphnaiokfedkicganmfmlmlgjiiaihj.chromiumapp.org/callback"
   }
 }
